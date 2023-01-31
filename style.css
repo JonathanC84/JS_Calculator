@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2 {
+    color: black;
+    text-align: center;
+}
+
+.grid {
+    width: 40%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.display {
+    grid-column: 1 / 7;
+    grid-row: 1;
+    height: 2em;
+    padding-top: 1em;
+    background-color: steelblue;
+    border-radius: 0.4em;
+}
+
+.small, .long {
+    border: none;
+    border-radius: 0.4em;
+    padding: 0.6em 0;
+}
+
+.long {
+    grid-column: 5 / 7;
+}
+
+.small { background-color: cornflowerblue; }
+.small:hover { background-color: deepskyblue; }
+
+.green { background-color: green; }
+.green:hover { background-color: yellowgreen; }
+
+.purple { background-color: purple; }
+.purple:hover { background-color: blueviolet; }
+
+.orange { background-color: orangered; }
+.orange:hover { background-color: orange; }

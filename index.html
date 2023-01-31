@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Calculatrice JavaScript</h1>
+    <h2>NFA041</h2>
+    <br>
+    <div class="grid">
+        <div class="display"></div>
+        <button class="small purple" onclick="clearScreen()">C</button>
+        <button class="small purple" onclick="addValue('(')">(</button>
+        <button class="small purple" onclick="addValue(')')">)</button>
+        <button class="small orange" onclick="addValue('/')">&divide;</button>
+        <button class="long orange" onclick="logarithm()">log</button>
+        <button class="small" onclick="addValue(7)">7</button>
+        <button class="small" onclick="addValue(8)">8</button>
+        <button class="small" onclick="addValue(9)">9</button>
+        <button class="small orange" onclick="addValue('*')">&times;</button>
+        <button class="long orange" onclick="addValue('%')">mod</button>
+        <button class="small" onclick="addValue(4)">4</button>
+        <button class="small" onclick="addValue(5)">5</button>
+        <button class="small" onclick="addValue(6)">6</button>
+        <button class="small orange" onclick="addValue('-')">&minus;</button>
+        <button class="long orange" onclick="squareRoot()">&Sqrt;</button>
+        <button class="small" onclick="addValue(1)">1</button>
+        <button class="small" onclick="addValue(2)">2</button>
+        <button class="small" onclick="addValue(3)">3</button>
+        <button class="small orange" onclick="addValue('+')">&plus;</button>
+        <button class="long orange" onclick="square()">x²</button>
+        <button class="small purple" onclick="erase()" >&lArr;</button>
+        <button class="small" onclick="addValue(0)">0</button>
+        <button class="small purple" onclick="addValue('.')">.</button>
+        <button class="small green" onclick="calculate()">&equals;</button>
+        <button class="long orange" onclick="addValue('e+')">exp</button>
+    </div>
+</body>
+</html>

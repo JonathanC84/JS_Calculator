@@ -66,7 +66,6 @@ document.addEventListener ('keydown', (event) => {
         case ')' : addValue(')'); break;
         case '.' : addValue('.'); break;
         case 'Backspace' : erase(); break;
-        case 'Enter' : calculate(); break;
         case '=' : calculate(); break;
     }
 });
